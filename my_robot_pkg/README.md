@@ -1,6 +1,5 @@
-# ROS2 Battery Monitor – Publisher & Subscriber
+# Opdracht 1: ROS2 Battery Monitor
 
-##  Over dit project
 Dit project demonstreert eenvoudige ROS2-communicatie tussen twee nodes:
 
 - **Battery Publisher** – publiceert een batterijspanning als `Float32`
