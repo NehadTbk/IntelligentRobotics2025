@@ -46,10 +46,6 @@ Topicinhoud live bekijken:
 ```bash
 ros2 topic echo /battery_voltage
 ```
-## Launch file gebruiken (publisher + subscriber samen)
-```bash
-ros2 launch my_robot_pkg my_robot_pkg_launch_file.launch.py
-```
 
 --------------------------------------------------
 
@@ -123,5 +119,3 @@ ros2 run my_robot_pkg keyboard_publisher
 ```bash
 ros2 run my_robot_pkg cmdvel_subscriber
 ```
-
-### 1. Start Gazebo
