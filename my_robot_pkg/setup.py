@@ -22,9 +22,12 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-            'battery_publisher = my_robot_pkg.battery_publisher:main',
-            'battery_subscriber = my_robot_pkg.battery_subscriber:main',
-        ],
-    },
+    'console_scripts': [
+        'battery_publisher = my_robot_pkg.battery_publisher:main',
+        'battery_subscriber = my_robot_pkg.battery_subscriber:main',
+        'keyboard_publisher = my_robot_pkg.keyboard_publisher:main',
+        'cmdvel_subscriber = my_robot_pkg.cmdvel_subscriber:main',
+    ],
+},
+
 )
